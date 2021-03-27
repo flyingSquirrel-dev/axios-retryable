@@ -1,16 +1,17 @@
 {
   "name": "axios-retryable",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "Axios plugin to retry requests",
   "main": "lib/index.js",
   "scripts": {
     "commit": "git-cz",
     "build": "tsc",
-    "go": "npm run build && npm publish"
+    "go": "npm run build && npm publish",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flyingSquirrel-dev/axios-retryable.git"
+    "url": "https://github.com/flyingSquirrel-dev/axios-retryable.git"
   },
   "keywords": [],
   "author": "flyingsquirrel-dev",
