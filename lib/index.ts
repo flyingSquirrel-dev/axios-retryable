@@ -4,6 +4,7 @@ import { ECONNABORTED } from './contants'
 import { initializeRetryStorage } from './utils/initializeRetryStorage'
 import { retryRequest } from './utils/retryRequest'
 
+// TODO: test commit
 export const axiosRetryable = (axiosInstance: AxiosInstance, config: AxiosRetryableConfig) => {
   const { delay, retryTimes, axiosTimeout, retryHttpStatus, callback, mode, exponent, exponentBase } = config
 
