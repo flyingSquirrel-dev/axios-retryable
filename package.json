@@ -6,7 +6,8 @@
   "scripts": {
     "commit": "git-cz",
     "build": "tsc",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
