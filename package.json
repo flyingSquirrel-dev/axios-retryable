@@ -12,7 +12,11 @@
     "type": "git",
     "url": "https://github.com/flyingSquirrel-dev/axios-retryable.git"
   },
-  "keywords": [],
+  "keywords": [
+    "axios",
+    "plugin",
+    "axios-retryable"
+  ],
   "author": "flyingsquirrel-dev",
   "license": "ISC",
   "bugs": {

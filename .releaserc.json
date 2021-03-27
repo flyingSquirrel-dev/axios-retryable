@@ -5,7 +5,7 @@
   "repositoryUrl": "https://github.com/flyingSquirrel-dev/axios-retryable",
   "debug": true,
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
+    "registry": "https://npm.pkg.github.com",
     "tag": "latest"
   },
   "plugins": [
