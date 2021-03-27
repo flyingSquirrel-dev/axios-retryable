@@ -3,6 +3,11 @@
   "version": "0.0.0-development",
   "description": "Axios plugin to retry requests",
   "main": "lib/index.js",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
     "commit": "git-cz",
     "build": "tsc",
