@@ -26,12 +26,6 @@
         ]
       }
     ],
-    "@semantic-release/npm",
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "./update-version.sh ${nextRelease.version}"
-      }
-    ]
+    "@semantic-release/npm"
   ]
 }
