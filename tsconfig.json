@@ -2,7 +2,8 @@
   "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "target": "es5",
-    "module": "CommonJS",
+    "types": ["@types/jest", "node"],
+    "module": "commonjs",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "removeComments": true,
@@ -17,5 +18,5 @@
     ]
   },
   "include": ["lib/**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
 }
